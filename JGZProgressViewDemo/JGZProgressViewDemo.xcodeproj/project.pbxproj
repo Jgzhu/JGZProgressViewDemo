@@ -13,6 +13,7 @@
 		0E31A4CF1EEE9718002F04FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E31A4CD1EEE9718002F04FA /* Main.storyboard */; };
 		0E31A4D11EEE9718002F04FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E31A4D01EEE9718002F04FA /* Assets.xcassets */; };
 		0E31A4D41EEE9718002F04FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E31A4D21EEE9718002F04FA /* LaunchScreen.storyboard */; };
+		0E31A4DE1EEE97C0002F04FA /* JGZCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E31A4DD1EEE97C0002F04FA /* JGZCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0E31A4D01EEE9718002F04FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E31A4D31EEE9718002F04FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E31A4D51EEE9718002F04FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E31A4DC1EEE97C0002F04FA /* JGZCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZCircleView.h; sourceTree = "<group>"; };
+		0E31A4DD1EEE97C0002F04FA /* JGZCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		0E31A4C31EEE9718002F04FA /* JGZProgressViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0E31A4DB1EEE9763002F04FA /* JGZProgressView */,
 				0E31A4C71EEE9718002F04FA /* AppDelegate.h */,
 				0E31A4C81EEE9718002F04FA /* AppDelegate.m */,
 				0E31A4CA1EEE9718002F04FA /* ViewController.h */,
@@ -77,6 +81,15 @@
 				0E31A4C51EEE9718002F04FA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E31A4DB1EEE9763002F04FA /* JGZProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				0E31A4DC1EEE97C0002F04FA /* JGZCircleView.h */,
+				0E31A4DD1EEE97C0002F04FA /* JGZCircleView.m */,
+			);
+			path = JGZProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 			files = (
 				0E31A4CC1EEE9718002F04FA /* ViewController.m in Sources */,
 				0E31A4C91EEE9718002F04FA /* AppDelegate.m in Sources */,
+				0E31A4DE1EEE97C0002F04FA /* JGZCircleView.m in Sources */,
 				0E31A4C61EEE9718002F04FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
